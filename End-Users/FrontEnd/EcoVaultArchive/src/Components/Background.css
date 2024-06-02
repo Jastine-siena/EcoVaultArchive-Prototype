@@ -1,0 +1,6 @@
+body{
+    background-image: url(/src/DENR-LOGO/DENR.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    filter: blur(10px); 
+}

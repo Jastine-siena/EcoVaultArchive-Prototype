@@ -1,0 +1,27 @@
+<!-- public/dashboard.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+</head>
+<body>
+  <h2>Dashboard</h2>
+  <!-- File upload form -->
+  <form action="/upload" method="POST" enctype="multipart/form-data">
+    <input type="file" name="file">
+    <input type="submit" value="Upload">
+  </form>
+
+  <!-- List of documents -->
+  <ul id="documents">
+    <!-- Documents will be dynamically populated here -->
+  </ul>
+
+  <script>
+    // JavaScript code for fetching and displaying document filenames
+  </script>
+</body>
+</html>
